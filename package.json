@@ -2,7 +2,7 @@
   "name": "TecaBit",
   "version": "1.0.0",
   "description": "TecaBit is a personal blog containing articles related to the field of Computer Engineering.",
-  "main": "app.js",
+  "main": "server.js",
   "engines": {
     "node": "12.x"
   },
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/cosmin92/TecaBit#readme",
   "dependencies": {
+    "ejs": "^3.0.1",
     "express": "^4.17.1"
   }
 }
