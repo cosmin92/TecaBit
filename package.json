@@ -1,0 +1,27 @@
+{
+  "name": "TecaBit",
+  "version": "1.0.0",
+  "description": "TecaBit is a personal blog containing articles related to the field of Computer Engineering.",
+  "main": "app.js",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmin92/TecaBit.git"
+  },
+  "keywords": [
+    "Blog",
+    "Computer Engineering",
+    "IT"
+  ],
+  "author": "Cosmin Fane Cozma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cosmin92/TecaBit/issues"
+  },
+  "homepage": "https://github.com/cosmin92/TecaBit#readme"
+}
