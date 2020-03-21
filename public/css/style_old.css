@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.s {
+  margin-top: 65.4px;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+nav {
+  margin: 0;
+}
+
+#main-header {
+  background-color: #fff;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container > div {
+  float: left;
+}
+
+.container::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#logo {
+  width: 20%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2em;
+  font-weight: 900;
+  padding: 0.4em;
+}
+
+#logo > a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #1e1e24;
+}
+#logo > a > span {
+  color: #7a0202;
+}
+
+#menu {
+  float: right;
+}
+
+.navbar > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar > ul::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.navbar > ul > li {
+  display: block;
+  float: left;
+}
+
+.navbar > ul > li > a {
+  display: block;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 1.45em 1.1em;
+  color: #000033;
+}
+
+.navbar > ul > li > a:hover {
+  color: #7a0202;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.category-box {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  margin: 5px;
+  padding: 0.8em;
+  font-size: 0.8em;
+}
+
+.category-box > .icon > img {
+  display: block;
+  width: 40px;
+  margin: 0 auto;
+}
+
+/**/
+#about-us,
+#contacts {
+  background-color: #fff;
+  padding: 2em 1em;
+}
+
+#main-footer {
+  background-color: #1e1e24;
+  padding: 2em;
+}
+
+.copyright {
+  border-top: 1px solid #000;
+  padding: 0.5em;
+  text-align: center;
+  color: #888;
+  font-size: 0.8em 0;
+}
